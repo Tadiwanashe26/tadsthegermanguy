@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TadzTheGermanGuy</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome for WhatsApp icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo">
+      <!-- Hamburger Button (visible on mobile) -->
+      <h1>TadsTheGermanGuy</h1>
+    </div>
+    <button id="nav-toggle" aria-label="Toggle navigation">
+    ☰
+  </button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#levels">Levels</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Start Learning German Today!</h2>
+      <p>Clear, structured, and beginner-friendly lessons with a personal touch.</p>
+      <a href="https://wa.me/4915166855414" class="btn">
+        <i class="fab fa-whatsapp"></i> Message Me on WhatsApp
+      </a>
+    </div>
+    <img src="profile.jpg" alt="Tads The German Guy">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hallo! Mein Name ist Tadiwa, a passionate German tutor dedicated to helping learners feel confident with the German language. With clear explanations, fun exercises, and consistent support, I’ll help you reach your goals in no time.</p>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2>Courses Offered</h2>
+    <div class="course-grid">
+      <div class="course">
+        <h3>A1 - Absolute Beginner</h3>
+        <p>Start from scratch. Learn basic expressions, greetings, and essential grammar.</p>
+        <p><i>120,-€ Paid in 2 installments of 60,-€</i></p>
+      </div>
+      <div class="course">
+        <h3>A2 - Elementary</h3>
+        <p>Learn how to talk about everyday topics, describe your routine, and ask questions.</p>
+        <p><i>120,-€ Paid in 2 installments of 60,-€</i></p>
+      </div>
+      <div class="course">
+        <h3>B1 - Intermediate</h3>
+        <p>Gain confidence, speak more fluently, and prepare for real conversations.</p>
+        <p><i>120,-€ Paid in 2 installments of 60,-€</i></p>
+      </div>
+      <div class="course">
+        <h3>Refresher Course</h3>
+        <p>Ideal for students who took a break from learning for an extended period. Refesh your language skills before moving to the next level in a fast paced intensive course</p>
+        <p>80,-€</p>
+      </div>
+    </div>
+
+    <div class="payments">
+      <p>Payments accepted via:</p>
+      <div class="payment-icons">
+        <img src="ecocash.png" alt="EcoCash">
+        <img src="mukuru.png" alt="Mukuru">
+        <img src="iban.png" alt="Bank Transfer">
+      </div>
+    </div>
+  </section>
+
+  <section id="levels" class="levels">
+    <h2>What Are the German Levels?</h2>
+    <p>The Common European Framework of Reference (CEFR) breaks language learning into 6 levels:</p>
+    <ul>
+      <li><strong>A1 – Beginner:</strong> Everyday phrases, greetings, and simple interaction.</li>
+      <li><strong>A2 – Elementary:</strong> Describe daily life, work, shopping, and your surroundings.</li>
+      <li><strong>B1 – Intermediate:</strong> Handle common situations, write simple texts, and express opinions.</li>
+      <li><strong>B2 – Upper Intermediate:</strong> Understand complex ideas, speak fluently with native speakers.</li>
+      <li><strong>C1 – Advanced:</strong> Use language flexibly and effectively in professional and academic settings.</li>
+      <li><strong>C2 – Mastery:</strong> Understand virtually everything and express yourself spontaneously.</li>
+    </ul>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Students Say</h2>
+
+    <blockquote>
+      <p>At first, I was very nervous about starting to study German. I had zero knowledge, and everyone kept telling me how difficult the German language is. But once I began my A1 lessons everything changed. The lessons were clear, easy to follow and well structured. My teacher was incredibly patient and supportive, which helped me believe in myself. The new vocabularies every day from my teacher with their meanings in English helped me a lot to understand German quickly. The daily exercises after each class helped me understand the language quickly and with confidence. After completing the A1 course, I got excellent results in my exam. I didn’t stop there. I went on to complete A2 and now I’m getting ready to start B1. I’m so proud of my progress! I highly recommend it for beginners.</p>
+      <cite>– A</cite>
+    </blockquote>
+
+    <blockquote>
+      <p>The course made learning German enjoyable and easy to follow. The explanations before each chapter really helped me understand the concepts better. I definitely feel more confident in my German now!!!</p>
+      <cite>– SD</cite>
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Have a question? Want to start lessons? Let’s chat!</p>
+    <a href="https://wa.me/4915166855414" class="btn">
+      <i class="fab fa-whatsapp"></i> Message Me
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TadsTheGermanGuy. All rights reserved.</p>
+  </footer>
+  <script>
+  const toggle = document.getElementById("nav-toggle");
+  const links = document.getElementById("nav-menu");
+
+  toggle.addEventListener("click", () => {
+    links.classList.toggle("open");
+  });
+</script>
+</body>
+</html>
+
